@@ -1,4 +1,5 @@
 
+
 //Sruvey For Web Development Role
 
 Survey
@@ -27,27 +28,29 @@ var json = {
                     placeHolder: "",
                     isRequired: true
                 },
-            ],
-        //Page 2
-        questions:[
-            {
-                //Question 3
-                name: "Question3",
-                type: "text",
-                title: "What makes a job fun and motivating for you?",                   
-                placeHolder: "",
-                isRequired: true
-            },
-            {
-                //Question 4
-                name: "Question4",
-                type: "text",
-                title: "What career challenges have prepared you for the challenges you would face in this job?",                   
-                placeHolder: "",
-                isRequired: true
-            },
-        ]
+            ]
         }, 
+        //Page 2
+        {
+            questions: [
+                {
+                    //Question 3
+                    name: "Question3",
+                    type: "text",
+                    title: "What was the most frustrating part of your current role? Have you ever taken steps to try and make this part of your role less frustrating?",                   
+                    placeHolder: "",
+                    isRequired: true
+                },
+                {
+                    //Question 4
+                    name: "Question4",
+                    type: "text",
+                    title: "What does your typical work week look like in terms of responsibilities? How have these responsibilities changed over time?",                   
+                    placeHolder: "",
+                    isRequired: true
+                },
+            ]
+        },
         //Page 3
         {
             questions: [
@@ -55,7 +58,7 @@ var json = {
                     //Question 5
                     name: "Question5",
                     type: "text",
-                    title: "Have you ever had to manage multiple deadlines set for the same day or week? How did you do it?",                   
+                    title: "What makes a job fun and motivating for you?",                   
                     placeHolder: "",
                     isRequired: true
                 },
@@ -63,18 +66,20 @@ var json = {
                     //Question 6
                     name: "Question6",
                     type: "text",
-                    title: "What was the most frustrating part of your current role? Have you ever taken steps to try and make this part of your role less frustrating?",                   
+                    title: "What career challenges have prepared you for the challenges you would face in this job?",                   
                     placeHolder: "",
                     isRequired: true
                 },
-            ],
+            ]
+        },
+        {
             //Page 4
-            questions:[
+            questions: [
                 {
                     //Question 7
-                    name: "Question7",
+                    name: "Question5",
                     type: "text",
-                    title: "What does your typical work week look like in terms of responsibilities? How have these responsibilities changed over time?",                   
+                    title: "Have you ever had to manage multiple deadlines set for the same day or week? How did you do it?",                   
                     placeHolder: "",
                     isRequired: true
                 },
@@ -86,8 +91,11 @@ var json = {
                     placeHolder: "",
                     isRequired: true
                 },
-            ],
-            questions:[
+            ]
+        },
+        {
+            //Page 5
+            questions: [
                 {
                     //Question 9
                     name: "Question9",
