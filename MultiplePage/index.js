@@ -27,22 +27,30 @@ var json = {
                     placeHolder: "",
                     isRequired: true
                 },
-                {
-                    //Question 3
-                    name: "Question3",
-                    type: "text",
-                    title: "What makes a job fun and motivating for you?",                   
-                    placeHolder: "",
-                    isRequired: true
-                },
-                {
-                    //Question 4
-                    name: "Question4",
-                    type: "text",
-                    title: "What career challenges have prepared you for the challenges you would face in this job?",                   
-                    placeHolder: "",
-                    isRequired: true
-                },
+            ],
+        //Page 2
+        questions:[
+            {
+                //Question 3
+                name: "Question3",
+                type: "text",
+                title: "What makes a job fun and motivating for you?",                   
+                placeHolder: "",
+                isRequired: true
+            },
+            {
+                //Question 4
+                name: "Question4",
+                type: "text",
+                title: "What career challenges have prepared you for the challenges you would face in this job?",                   
+                placeHolder: "",
+                isRequired: true
+            },
+        ]
+        }, 
+        //Page 3
+        {
+            questions: [
                 {
                     //Question 5
                     name: "Question5",
@@ -50,12 +58,7 @@ var json = {
                     title: "Have you ever had to manage multiple deadlines set for the same day or week? How did you do it?",                   
                     placeHolder: "",
                     isRequired: true
-                }
-            ]
-        }, 
-        //Page 2
-        {
-            questions: [
+                },
                 {
                     //Question 6
                     name: "Question6",
@@ -64,6 +67,9 @@ var json = {
                     placeHolder: "",
                     isRequired: true
                 },
+            ],
+            //Page 4
+            questions:[
                 {
                     //Question 7
                     name: "Question7",
@@ -80,6 +86,8 @@ var json = {
                     placeHolder: "",
                     isRequired: true
                 },
+            ],
+            questions:[
                 {
                     //Question 9
                     name: "Question9",
