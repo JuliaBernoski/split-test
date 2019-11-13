@@ -11,13 +11,13 @@ let apiProxy = httpProxy.createProxy({
     changeOrigin: true
 });
 
-app.use("/test1", express.static(__dirname + "/test1"));
-app.use("/test2", express.static(__dirname + "/test2"));
+app.use("/MultiplePage", express.static(__dirname + "/MultiplePage"));
+app.use("/SinglePage", express.static(__dirname + "/SinglePage"));
 
 
 let aUrls = [
-    "/test1/",
-    "/test2/"
+    "/MultiplePage/",
+    "/SinglePage/"
 ];
 
 app.all("/*", function(req, res) {
