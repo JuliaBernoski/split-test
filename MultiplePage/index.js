@@ -29,20 +29,11 @@ var json = {
                 },
                 {
                     //Question 3
-                    type: "Question3",
-                    name: "Fun Job",
-                    title: "What makes a job fun and motivating for you?",
-                    isRequired: true,
-                    hasNone: true,
-                    colCount: 4,
-                    choices: [
-                        "The People",
-                        "Interesting Projects",
-                        "Completing a Project",
-                        "Gaining New Clients",
-                        "Being Able to work Independently",
-                        "Working on my own projects"
-                    ]
+                    name: "Question3",
+                    type: "text",
+                    title: "What makes a job fun and motivating for you?",                   
+                    placeHolder: "",
+                    isRequired: true
                 },
                 {
                     //Question 4
@@ -99,15 +90,11 @@ var json = {
                 },
                 {
                     //Question 10
-                    type: "Question10",
-                    name: "interview",
-                    title: "Are you currently interviewing with any other companies?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: [
-                         "Yes",
-                         "No"
-                    ]
+                    name: "Question10",
+                    type: "text",
+                    title: "Are you currently interviewing with any other companies?",                   
+                    placeHolder: "",
+                    isRequired: true
                 }
             ]
         }
